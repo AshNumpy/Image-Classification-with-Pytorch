@@ -1,46 +1,52 @@
-## What is Pytorch?  
-PyTorch is an open source machine learning (ML) framework based on the Python programming language and the Torch library. It is one of the preferred platforms for deep learning research.  
-  
-## What is Key Features and Capabilities?  
-**Production Ready**  
-Transition seamlessly between eager and graph modes with TorchScript, and accelerate the path to production with TorchServe.  
-  
-**Distributed Training**  
-Scalable distributed training and performance optimization in research and production is enabled by the torch.distributed backend.  
-  
-**Robust Ecosystem**  
-A rich ecosystem of tools and libraries extends PyTorch and supports development in computer vision, NLP and more.  
-  
-**Cloud Support**  
-PyTorch is well supported on major cloud platforms, providing frictionless development and easy scaling.  
+<details>
+<summary>Türkçe Açıklama için Tıklayınız</summary>
 
-## Requirements  
+## Proje Genel Bakış:
 
-<img src='https://external-preview.redd.it/TxplUbEUiAAyEiV_jYVGq99XbMdew5B9U7Z1cbxfXtg.jpg?width=640&crop=smart&auto=webp&s=b886aec198945ce396a51a0c6fe7a21a3cff9a47' width='180' height='100'> <img src='https://caiodonalisio.com/static/blog/posts/cadernos/matplotlib/cover.png' width='100' height='100'> <img src='https://user-images.githubusercontent.com/4668356/75205213-cb5ee380-5738-11ea-8073-5f43f26da4a1.png' width='120' height='100'> <img src='https://urllib3.readthedocs.io/en/stable/_static/banner.svg' width='285' height='100'> 
-  
-- Pytorch  
-- Matplotlib  
-- PIL  
-- Urllib  
+Bu proje, PyTorch kullanarak kedi ve köpek resimlerini sınıflandıran bir çalışmadır. Proje, derin öğrenme algoritmaları ile resim sınıflandırması yapmayı amaçlar. Kedi ve köpek resimleri için bir sinir ağı (neural network) modeli oluşturulacak ve bu model, yeni gelen resimleri kedi veya köpek olarak sınıflandırmak için kullanılacak.
 
-## Installation  
-- Pytorch:  
-You should visit [here]() for more detail and specific setting ups.  
-```bash
-pip3 install torch-tensorrt -f https://github.com/pytorch/TensorRT/releases
-```
-  
-- Matplotlib:  
-```bash
-pip install matplotlib
-```
-  
-- PIL:  
-```bash
-pip install Pillow
-```
-  
-- Urllib:  
-```bash
-pip install urllib3
-```
+## Proje Hedefleri:
+
+- Veri Hazırlama: Kedi ve köpek resimlerinden oluşan bir veri seti hazırlamak ve bu veri setini eğitim ve test için ayrıştırmak.
+
+- Sinir Ağı Modeli: PyTorch kullanarak bir sinir ağı modeli tasarlamak ve eğitmek.
+
+- Sınıflandırma: Oluşturulan sinir ağı modeli ile yeni gelen resimleri kedi veya köpek olarak doğru bir şekilde sınıflandırmak.
+
+- Performans Değerlendirmesi: Modelin performansını değerlendirmek ve sınıflandırma doğruluğunu belirlemek.
+
+## Proje Özellikleri:
+
+- Veri Hazırlama: İnternet veya farklı kaynaklardan kedi ve köpek resimlerini toplayarak bir veri seti oluşturmak.
+
+- Sinir Ağı Modeli: PyTorch kullanarak bir sinir ağı modeli tasarlamak ve eğitmek için gerekli yapıları oluşturmak.
+
+- Sınıflandırma: Eğitilen modeli yeni gelen resimlerle test ederek kedi ve köpek resimlerini doğru bir şekilde sınıflandırmak.
+
+- Performans Değerlendirmesi: Modelin sınıflandırma doğruluğunu ve performansını belirlemek için uygun metrikleri kullanmak.
+
+</details>
+
+## Project Overview:
+
+This project is a study that uses PyTorch to classify cat and dog images. The project aims to perform image classification using deep learning algorithms. A neural network model will be created for cat and dog images, and this model will be used to classify new incoming images as either cat or dog.
+
+## Project Objectives:
+
+- Data Preparation: Prepare a dataset consisting of cat and dog images and split this dataset into training and testing sets.
+
+- Neural Network Model: Design and train a neural network model using PyTorch.
+
+- Classification: Use the created neural network model to classify new incoming images as either cat or dog.
+
+- Performance Evaluation: Evaluate the model's performance and determine the classification accuracy.
+
+## Project Features:
+
+- Data Preparation: Collect cat and dog images from the internet or different sources to create a dataset.
+
+- Neural Network Model: Use PyTorch to design and create the necessary structures for training a neural network model.
+
+- Classification: Test the trained model with new incoming images to correctly classify them as cat or dog.
+
+- Performance Evaluation: Use appropriate metrics to determine the model's classification accuracy and performance.
